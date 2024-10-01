@@ -1,4 +1,4 @@
-## routes-backend (Installation on Mac OSX)
+## todo-list-frontend (Mac Installation)
 
 ### 0. Prerequisites
 
