@@ -1,6 +1,6 @@
 // Represents a Todo item
 export default interface TodoItem {
     id: number;
-    text: string;
+    name: string;
     completed: boolean;
 };

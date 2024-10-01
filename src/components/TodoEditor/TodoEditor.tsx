@@ -53,7 +53,7 @@ export default function TodoEditor() {
                         <ListItem
                             secondaryAction={
                                 <div>
-                                    <IconButton edge="end" aria-label="edit" onClick={() => startEditing(task.id, task.text)}>
+                                    <IconButton edge="end" aria-label="edit" onClick={() => startEditing(task.id, task.name)}>
                                         <Edit />
                                     </IconButton>
                                     <IconButton edge="end" aria-label="delete" onClick={() => deleteTodoItem(task.id)}>
@@ -77,7 +77,7 @@ export default function TodoEditor() {
                                 />
                             ) : (
                                 <ListItemText
-                                    primary={task.text}
+                                    primary={task.name}
                                     style={{ textDecoration: task.completed ? 'line-through' : 'none' }}
                                 />
                             )}
